@@ -1,0 +1,22 @@
+{
+  "siteId": "6211072",
+  "popunder": {
+    "script": "https://abscloud.org/1/55563327a3b42591c30bcb68fe138919"
+  },
+  "socialBar": {
+    "script": "https://bauval.org/14/2270dfd569bd19ee79445b666db5a95d"
+  },
+  "native": {
+    "script": "https://bauval.org/21/0d899f50f9e0e169b2d32fa58c37f5df",
+    "containerId": "container-0d899f50f9e0e169b2d32fa58c37f5df"
+  },
+  "smartlink": "https://araplhn.org/4/82667f6b86ce260e007e2eef0926cb0d",
+  "banners": {
+    "728x90": "3d6acc1e7d676d92776a6764771fb5c8",
+    "468x60": "861a3122050fededb1cbd598a6bada00",
+    "300x250": "24c404fe0cae1a634b54ff01477e341b",
+    "160x300": "72c4421c2d1f850988a6c67dc012b09a",
+    "160x600": "f9058970b41e544868fd142fb02297b3",
+    "320x50": "7151a00d0f05de566a8e455bba4344b2"
+  }
+}
