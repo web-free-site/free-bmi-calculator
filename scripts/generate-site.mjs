@@ -17,9 +17,9 @@ function escAttr(s) {
 }
 
 function bannerIframe(key, w, h) {
-  const inner = `<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;padding:0;overflow:hidden}</style></head><body><script>atOptions = {'key':'${key}','format':'iframe','height':${h},'width':${w},'params':{}};<\\/script><script src="https://bauval.org/22/${key}"><\\/script></body></html>`;
+  const inner = `<!DOCTYPE html><html><head><meta charset="utf-8"><style>html,body{margin:0;padding:0;overflow:hidden}</style></head><body><script>atOptions = {'key':'${key}','format':'iframe','height':${h},'width':${w},'params':{}};</script><script src="https://bauval.org/22/${key}"></script></body></html>`;
   return `<div class="ad-slot ad-iframe" aria-hidden="true">
-  <iframe title="Advertisement" class="ad-frame" width="${w}" height="${h}" scrolling="no" frameborder="0" sandbox="allow-scripts allow-popups allow-popups-to-escape-sandbox" srcdoc="${escAttr(inner)}"></iframe>
+  <iframe title="Advertisement" class="ad-frame" width="${w}" height="${h}" scrolling="no" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox" srcdoc="${escAttr(inner)}"></iframe>
 </div>`;
 }
 
@@ -138,6 +138,7 @@ ${footer()}
 ${wfMoreTools}
 ${cfAnalytics}
 ${socialBar}
+<script src="/wf-ads.js" defer></script>
 </body>
 </html>`;
 }
